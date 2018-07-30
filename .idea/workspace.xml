@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1f0025-e74c-424d-b0c9-b2a655556c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morningharwood-authorer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,14 +48,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="97" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="4" />
           <entry key="ts" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="97" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="TypeScript" value="80" />
         </counts>
       </usages-collector>
@@ -144,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/morningharwood-authorer/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+            <state relative-caret-position="477">
+              <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
             </state>
           </provider>
         </entry>
@@ -279,12 +278,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532931038572</updated>
       <workItem from="1532931040375" duration="334000" />
-      <workItem from="1532931392551" duration="2082000" />
+      <workItem from="1532931392551" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2416000" />
+    <option name="totallyTimeSpent" value="2548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -398,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+        <state relative-caret-position="477">
+          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
         </state>
       </provider>
     </entry>
