@@ -3,6 +3,7 @@ export enum Collection {
   COMPONENT = 'components',
   SECTION = 'sections'
 }
+
 export enum AdminRoute {
   ROUTE = 'route-admin',
   COMPONENT = 'component-admin',

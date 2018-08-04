@@ -3,13 +3,23 @@ import {
   RouterModule,
   Routes,
 } from '@angular/router';
-import { ComponentAdminComponent } from './component-admin.component';
+
+import { AdminRoute } from '../utils/enums';
+import { ComponentAdminListComponent } from './component-admin-list/component-admin-list.component';
+import { ComponentAdminDetailComponent } from './component-admin-detail/component-admin-detail.component';
 
 
 const routes: Routes = [
   {
-    path: 'component-admin',
-    component: ComponentAdminComponent,
+    path: AdminRoute.COMPONENT,
+    component: ComponentAdminListComponent,
+  },
+  {
+    path: `${AdminRoute.COMPONENT}/:id`,
+    component: ComponentAdminDetailComponent,
+    // resolve: {
+    //   details: RouteResolve,
+    // },
   },
 ];
 

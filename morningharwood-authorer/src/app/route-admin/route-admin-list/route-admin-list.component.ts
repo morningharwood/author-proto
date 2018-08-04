@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { AngularFirestore } from 'angularfire2/firestore';
 import { Observable } from 'rxjs';
+import {
+  AdminRoute,
+  Collection,
+} from '../../utils/enums';
 
 
 @Component({
@@ -10,9 +14,10 @@ import { Observable } from 'rxjs';
 })
 export class RouteAdminListComponent {
   public items: Observable<any[]>;
-
+  public adminRoute: AdminRoute;
   constructor(private db: AngularFirestore) {
-    this.items = this.db.collection('routes')
+    this.adminRoute = AdminRoute.ROUTE;
+    this.items = this.db.collection(Collection.ROUTES)
                      .valueChanges();
   }
 }

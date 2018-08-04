@@ -5,6 +5,6 @@
 <ul>
   <li *ngFor="let item of items | async">
     <p>{{item.routeName}}</p>
-    <a [routerLink]="['/route-admin', item.routePath]">go</a>
+    <a [routerLink]="['/', adminRoute, item.routePath]">go</a>
   </li>
 </ul>

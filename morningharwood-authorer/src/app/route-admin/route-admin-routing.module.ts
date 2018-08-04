@@ -6,18 +6,19 @@ import {
 import { RouteAdminListComponent } from './route-admin-list/route-admin-list.component';
 import { RouteResolve } from './route-resolve';
 import { RouteAdminDetailComponent } from './route-admin-detail/route-admin-detail.component';
+import { AdminRoute } from '../utils/enums';
 
 
 const routes: Routes = [
   {
-    path: 'route-admin/:id',
+    path: `${AdminRoute.ROUTE}/:id`,
     component: RouteAdminDetailComponent,
     resolve: {
       details: RouteResolve,
     },
   },
   {
-    path: 'route-admin',
+    path: AdminRoute.ROUTE,
     component: RouteAdminListComponent,
   },
 ];
