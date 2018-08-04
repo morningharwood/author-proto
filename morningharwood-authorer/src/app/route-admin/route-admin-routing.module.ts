@@ -13,7 +13,7 @@ const routes: Routes = [
     path: 'route-admin/:id',
     component: RouteAdminDetailComponent,
     resolve: {
-      routeDetail: RouteResolve,
+      details: RouteResolve,
     },
   },
   {

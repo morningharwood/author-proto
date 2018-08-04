@@ -10,6 +10,10 @@ import {
   map,
 } from 'rxjs/operators';
 import { Observable } from 'rxjs';
+import {
+  AdminRoute,
+  Collection,
+} from '../utils/enums';
 
 
 @Injectable()
@@ -19,7 +23,9 @@ export class RouteResolve implements Resolve<any> {
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any> {
     const routeMap = {
-      [ route.url[ 0 ].path ]: 'routes',
+      [ AdminRoute.ROUTE ]: Collection.ROUTES,
+      [ AdminRoute.COMPONENT ]: Collection.COMPONENT,
+      [ AdminRoute.SECTION ]: Collection.SECTION,
     };
 
     return this.db
