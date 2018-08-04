@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1f0025-e74c-424d-b0c9-b2a655556c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/component-admin/component-admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/component-admin/component-admin.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,15 +79,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -104,17 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="368">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -135,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="24" />
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -169,15 +146,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-327">
               <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -300,7 +268,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="route-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="route-admin-list" type="462c0819:PsiDirectoryNode" />
+              <item name="route-admin-detail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="morningharwood-authorer" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +291,7 @@
     <property name="node.js.selected.package.tslint" value="C:\Users\matth\workspace\morningharwood-authorer\morningharwood-authorer\node_modules\tslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
     <property name="ts.external.directory.path" value="C:\Users\matth\workspace\morningharwood-authorer\morningharwood-authorer\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -355,12 +323,12 @@
       <updated>1532931038572</updated>
       <workItem from="1532931040375" duration="334000" />
       <workItem from="1532931392551" duration="2214000" />
-      <workItem from="1533351022539" duration="12373000" />
+      <workItem from="1533351022539" duration="12662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14921000" />
+    <option name="totallyTimeSpent" value="15210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -637,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="24" />
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -671,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="368">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
