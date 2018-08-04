@@ -9,11 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
   MatButtonModule,
-  MatInputModule,
-  MatFormFieldModule,
   MatCheckboxModule,
-  MatSelectModule
+  MatFormFieldModule,
+  MatInputModule,
+  MatSelectModule,
 } from '@angular/material';
+import { RouteAdminModule } from './route-admin/route-admin.module';
+import { RouterModule } from '@angular/router';
+import { SectionAdminModule } from './section-admin/section-admin.module';
+import { ComponentAdminModule } from './component-admin/component-admin.module';
 
 
 @NgModule({
@@ -30,7 +34,11 @@ import {
     MatInputModule,
     MatFormFieldModule,
     MatCheckboxModule,
-    MatSelectModule
+    MatSelectModule,
+    RouteAdminModule,
+    RouterModule.forRoot([]),
+    SectionAdminModule,
+    ComponentAdminModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ],
