@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1f0025-e74c-424d-b0c9-b2a655556c2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-resolve.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,34 +41,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="3" />
-          <entry key="ts" value="16" />
+          <entry key="html" value="4" />
+          <entry key="ts" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="3" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="16" />
+          <entry key="TypeScript" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="534" />
           <entry key="gitignore" value="4" />
-          <entry key="html" value="141" />
-          <entry key="ts" value="535" />
+          <entry key="html" value="256" />
+          <entry key="ts" value="1734" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="534" />
-          <entry key="HTML" value="146" />
+          <entry key="HTML" value="263" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="TypeScript" value="530" />
+          <entry key="TypeScript" value="1727" />
         </counts>
       </usages-collector>
     </session>
@@ -82,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="290">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -92,39 +98,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin.component.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin-routing.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin.module.ts">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="13" selection-end-column="4" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.html">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.prod.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="207">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -132,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+            <state relative-caret-position="198">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -142,19 +131,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-resolve.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="322">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="230">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -163,19 +152,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.ts">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="773">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.html">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -184,6 +194,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>forChi</find>
+      <find>invest</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\matth\workspace\morningharwood-authorer\morningharwood-authorer\src\app\route-admin</dir>
@@ -200,18 +211,23 @@
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/styles.css" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/.gitignore" />
-        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/component-admin/component-admin.module.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin.module.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/component-admin/component-admin-routing.module.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin-routing.module.ts" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.html" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.prod.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts" />
-        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.html" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.html" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts" />
         <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts" />
-        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css" />
+        <option value="$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-resolve.ts" />
       </list>
     </option>
   </component>
@@ -291,6 +307,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="section-admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="morningharwood-authorer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="morningharwood-authorer" type="462c0819:PsiDirectoryNode" />
+              <item name="morningharwood-authorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -307,6 +330,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="ts.external.directory.path" value="C:\Users\matth\workspace\morningharwood-authorer\morningharwood-authorer\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matth\workspace\morningharwood-authorer\morningharwood-authorer\src\app\route-admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -332,12 +360,12 @@
       <updated>1532931038572</updated>
       <workItem from="1532931040375" duration="334000" />
       <workItem from="1532931392551" duration="2214000" />
-      <workItem from="1533351022539" duration="4295000" />
+      <workItem from="1533351022539" duration="10233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6843000" />
+    <option name="totallyTimeSpent" value="12781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -359,7 +387,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="NativeScript" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -461,16 +489,6 @@
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.spec.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/component-admin/component-admin-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -494,35 +512,15 @@
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/section-admin/section-admin.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -531,20 +529,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-list/route-admin-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        <state relative-caret-position="198">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin.component.css">
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-admin-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="230">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morningharwood-authorer/src/app/route-admin/route-resolve.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>

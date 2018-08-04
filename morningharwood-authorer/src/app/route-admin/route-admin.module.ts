@@ -17,6 +17,8 @@ import {
   MatSelectModule,
 } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { RouteAdminListComponent } from './route-admin-list/route-admin-list.component';
 
 
 @NgModule({
@@ -39,10 +41,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatCheckboxModule,
     MatSelectModule,
     ReactiveFormsModule,
+    AngularFirestoreModule,
   ],
   declarations: [
     RouteAdminComponent,
     RepeatTypeComponent,
+    RouteAdminListComponent,
   ],
 })
 export class RouteAdminModule {

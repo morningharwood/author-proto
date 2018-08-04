@@ -6,6 +6,11 @@ import {
   FormlyFormBuilder,
   FormlyFormOptions,
 } from '@ngx-formly/core';
+import {
+  AngularFirestore,
+  AngularFirestoreCollection,
+} from 'angularfire2/firestore';
+import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -14,15 +19,23 @@ import {
   styleUrls: [ './route-admin.component.css' ],
 })
 export class RouteAdminComponent {
+  private ref: AngularFirestoreCollection<any>;
+  private currentItem: any = {};
+
+  constructor(private db: AngularFirestore, private route: ActivatedRoute) {
+    this.ref = db.collection('routes');
+
+  }
+
   form = new FormGroup({});
   model = {
-    investments: [ {} ],
+    router: [ this.route.snapshot.data[ 'routeDetail' ] ],
   };
   options: FormlyFormOptions = {};
 
   fields: FormlyFieldConfig[] = [
     {
-      key: 'investments',
+      key: 'router',
       type: 'repeat',
       fieldArray: {
         fieldGroupClassName: 'row',
@@ -52,7 +65,8 @@ export class RouteAdminComponent {
   ];
 
   submit() {
-    alert(JSON.stringify(this.model));
+    this.ref.doc(this.model.router[ 0 ][ 'routePath' ])
+        .set(this.model.router[ 0 ], { merge: true });
   }
 }
 
@@ -62,7 +76,8 @@ export class RouteAdminComponent {
   styleUrls: [ './route-admin.component.css' ],
   template: `
     <section class="section-wrapper">
-      <div class="bump-20" *ngFor="let field of field.fieldGroup; let i = index;">
+      <div class="bump-20"
+           *ngFor="let field of field.fieldGroup; let i = index;">
         <formly-group
           [model]="model[i]"
           [field]="field"
@@ -74,6 +89,7 @@ export class RouteAdminComponent {
         </formly-group>
       </div>
       <div class="submit-button">
+
         <button mat-fab class="fab-position" type="button"
                 (click)="add()">{{ field.fieldArray.templateOptions.btnText }}
         </button>

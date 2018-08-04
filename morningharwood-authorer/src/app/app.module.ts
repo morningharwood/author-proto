@@ -18,6 +18,8 @@ import { RouteAdminModule } from './route-admin/route-admin.module';
 import { RouterModule } from '@angular/router';
 import { SectionAdminModule } from './section-admin/section-admin.module';
 import { ComponentAdminModule } from './component-admin/component-admin.module';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from 'angularfire2';
 
 
 @NgModule({
@@ -39,6 +41,7 @@ import { ComponentAdminModule } from './component-admin/component-admin.module';
     RouterModule.forRoot([]),
     SectionAdminModule,
     ComponentAdminModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [ AppComponent ],
