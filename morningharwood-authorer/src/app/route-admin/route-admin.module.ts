@@ -2,10 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { RouteAdminRoutingModule } from './route-admin-routing.module';
-import {
-  RepeatTypeComponent,
-  RouteAdminComponent,
-} from './route-admin.component';
+import { RouteAdminComponent } from './route-admin.component';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,6 +16,8 @@ import {
 import { ReactiveFormsModule } from '@angular/forms';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { RouteAdminListComponent } from './route-admin-list/route-admin-list.component';
+import { FormRepeatModule } from '../form-repeat/form-repeat.module';
+import { FormRepeatComponent } from '../form-repeat/form-repeat.component';
 
 
 @NgModule({
@@ -29,7 +28,7 @@ import { RouteAdminListComponent } from './route-admin-list/route-admin-list.com
       types: [
         {
           name: 'repeat',
-          component: RepeatTypeComponent,
+          component: FormRepeatComponent,
         },
       ],
     }),
@@ -41,11 +40,11 @@ import { RouteAdminListComponent } from './route-admin-list/route-admin-list.com
     MatCheckboxModule,
     MatSelectModule,
     ReactiveFormsModule,
+    FormRepeatModule,
     AngularFirestoreModule,
   ],
   declarations: [
     RouteAdminComponent,
-    RepeatTypeComponent,
     RouteAdminListComponent,
   ],
 })

@@ -20,7 +20,6 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class RouteAdminComponent {
   private ref: AngularFirestoreCollection<any>;
-  private currentItem: any = {};
 
   constructor(private db: AngularFirestore, private route: ActivatedRoute) {
     this.ref = db.collection('routes');
@@ -71,34 +70,3 @@ export class RouteAdminComponent {
 }
 
 
-@Component({
-  selector: 'formly-repeat-section',
-  styleUrls: [ './route-admin.component.css' ],
-  template: `
-    <section class="section-wrapper">
-      <div class="bump-20"
-           *ngFor="let field of field.fieldGroup; let i = index;">
-        <formly-group
-          [model]="model[i]"
-          [field]="field"
-          [options]="options"
-          [form]="formControl">
-          <button mat-raised-button type="button" (click)="remove(i)">
-            Remove
-          </button>
-        </formly-group>
-      </div>
-      <div class="submit-button">
-
-        <button mat-fab class="fab-position" type="button"
-                (click)="add()">{{ field.fieldArray.templateOptions.btnText }}
-        </button>
-      </div>
-    </section>
-  `,
-})
-export class RepeatTypeComponent extends FieldArrayType {
-  constructor(builder: FormlyFormBuilder) {
-    super(builder);
-  }
-}

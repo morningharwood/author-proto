@@ -20,6 +20,7 @@ import { SectionAdminModule } from './section-admin/section-admin.module';
 import { ComponentAdminModule } from './component-admin/component-admin.module';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from 'angularfire2';
+import { FormRepeatModule } from './form-repeat/form-repeat.module';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { AngularFireModule } from 'angularfire2';
     RouterModule.forRoot([]),
     SectionAdminModule,
     ComponentAdminModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    FormRepeatModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ],
