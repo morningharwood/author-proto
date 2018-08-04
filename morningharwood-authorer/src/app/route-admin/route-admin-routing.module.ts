@@ -3,15 +3,15 @@ import {
   RouterModule,
   Routes,
 } from '@angular/router';
-import { RouteAdminComponent } from './route-admin.component';
 import { RouteAdminListComponent } from './route-admin-list/route-admin-list.component';
 import { RouteResolve } from './route-resolve';
+import { RouteAdminDetailComponent } from './route-admin-detail/route-admin-detail.component';
 
 
 const routes: Routes = [
   {
     path: 'route-admin/:id',
-    component: RouteAdminComponent,
+    component: RouteAdminDetailComponent,
     resolve: {
       routeDetail: RouteResolve,
     },
